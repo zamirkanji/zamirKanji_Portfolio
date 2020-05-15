@@ -15,6 +15,34 @@ body, html {
     align-items: center;
 }
 
+.nav-bar-container {
+    /* justify-content: center; */
+    align-items: center;
+    width: 100vw;
+    border: 1px solid white;
+    background-color: #D6EFFF;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    margin: 2vw 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    /* display: inline-block; */
+    margin: 0 2vw;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
 #main-header {
     color: white;
     font-weight: 100;
@@ -30,7 +58,7 @@ body, html {
     align-items: center;
     /* background-color: whitesmoke; */
     width: 99%;
-    height: 75%;
+    height: 100%;
     border: 1px solid white;
 }
 
